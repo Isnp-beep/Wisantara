@@ -1,0 +1,20 @@
+# Upload pengguna (foto komunitas) tidak ikut repo
+api/uploads/posts/*
+!api/uploads/posts/.gitkeep
+
+# Rahasia & lokal
+.env
+*.local.php
+
+# Flutter / Android
+app/build/
+app/.dart_tool/
+app/.idea/
+app/android/.gradle/
+app/android/local.properties
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
